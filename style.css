@@ -31,7 +31,7 @@ a{
 
 .container .data_container .customer_info{
 	position:relative;
-    background-color: aqua;
+    background-color: rgb(104, 180, 209);
 	padding:10px;
 	border-radius: 10px;
 	display:block;
@@ -92,7 +92,7 @@ input[type=number]{
 	position:absolute;
 	top:50%;
 	left:5px;
-	color:gray;
+	color:black;
 	transform:translateY(-50%);
 	font-size:16px;
 	pointer-events:none;
@@ -105,14 +105,15 @@ input[type=number]{
 	left:0;
 	width:0;
 	height:2px;
-	background:#2691d9;
+	background:#032ed9;
 	transition: .5s;
 }
 
 .text_field input:focus ~ label,
 .text_field input:valid ~ label{
 	top:-5px;
-	color:#2691d9;
+	color:#032ed9;
+	;
 }
 
 .text_field input:focus ~ span::before,
