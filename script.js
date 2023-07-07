@@ -53,7 +53,7 @@ function analysedata(){
     var amenities=document.getElementsByName('amenities');
     const comfort_value = {
         'AC':1000,
-        'Locker':3000,
+        'Locker':300
     }
     var comfort_rate = 0,amenity=[];
     for(var i=0 ; i< amenities.length ; i++){
