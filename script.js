@@ -40,7 +40,7 @@ function analysedata(){
     var room_type=document.getElementsByName('room_type');
     var room_value = {
         'Delux':2500,
-        'Suite':4000;
+        'Suite':4000,
     }
     var room_rate,room;
     for(var i=0 ; i< room_type.length ; i++){
@@ -53,7 +53,7 @@ function analysedata(){
     var amenities=document.getElementsByName('amenities');
     const comfort_value = {
         'AC':1000,
-        'Locker':300;
+        'Locker':300,
     }
     var comfort_rate = 0,amenity=[];
     for(var i=0 ; i< amenities.length ; i++){
